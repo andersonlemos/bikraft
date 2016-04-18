@@ -1,1 +1,1 @@
-"#bikraft" 
+#bikraf
