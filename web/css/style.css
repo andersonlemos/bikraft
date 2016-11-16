@@ -260,4 +260,13 @@ img{
 }
 .footer-redes ul li{
   display: inline-block;
+  margin-right: 10px;
+}
+.footer-redes ul li a{
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 6px;
+}
+.footer-redes ul li a:hover{
+  border-color: #fff;
 }
