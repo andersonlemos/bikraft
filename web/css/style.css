@@ -108,6 +108,19 @@ img{
   font-size: 14px;
   letter-spacing: .1em;
 }
+
+.introducao-interna{
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+}
+.introducao-interna h1{
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 .quote-externo p:before, .quote-externo p:after {
   content: "";
   display: block;
@@ -269,4 +282,10 @@ img{
 }
 .footer-redes ul li a:hover{
   border-color: #fff;
+}
+.copy{
+  width: 100%;
+  color: #000;
+  background: #fec63e;
+  padding: 20px 0px;
 }
