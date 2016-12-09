@@ -16,8 +16,34 @@
   .footer_redes ul li a img {
     width:26px;
   }
+/*Produtos*/
+.produto_item h2{
+	top: -150px;
+	margin-bottom: -56px;
 }
-/*EStilo para Smartphones*/
+.produto_icone{
+	padding: 41px 0;
+}
+.produto_info p {
+  font-size: 14px;
+  line-height: 20px;
+  height: 122px;
+  padding: 20px 30px;
+}
+.produto_info ul li{
+	background: #fec63e;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+  float: left;
+	width: 181px;
+	height: 49px;
+	text-align: center;
+	padding-top: 16px;
+}
+}
+/*Estilo para Smartphones*/
 @media only screen and (max-width: 767px) {
 
 /*Header*/
@@ -40,6 +66,9 @@
     display: block;
     float:left;
   }
+  .header_menu ul li a.menu_ativo {
+    border-color: #FFF;
+  }
 /*Introducao*/
   .introducao h1 {
   	font-size: 36px;
@@ -50,12 +79,56 @@
     background: url("../img/bg.jpg") no-repeat center;
     background-size: cover;
   }
+/*Introdução Interna*/
+.introducao-interna {
+	margin-top: 0px;
+}
+/*Produtos*/
+.produto_item h2{
+	top: -100px;
+	margin-bottom: -68px;
+}
+.produto_icone{
+	padding: 41px 0;
+}
+.produto_info p {
+  font-size: 14px;
+  line-height: 20px;
+  height: auto;
+  padding: 20px 30px;
+}
+.produto_info ul li{
+  font-size: 14px;
+  line-height: 20px;
+	width: 149px;
+	height: 49px;
+  padding-top: 14px;
+}
 /*Call*/
   .call {
   	padding-top: 10px;
   }
-  /**/
+  /*Qualidade*/
   .qualidade:after {
     display: none;
+  }
+  .missao_sobre p {
+    font-size: 14px;
+    line-height: 20px;
+  	padding-right: 0px
+  }
+  .missao_sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .form{
+    padding-right: 0px;
+  }
+  .orcamento_dados ul{
+    padding:0px;
+  }
+  .contato_form{
+    padding-right: 0px;
+    margin-bottom: 40px;
   }
 }
