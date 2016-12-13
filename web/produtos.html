@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/produtos.css">
 		<link rel="stylesheet" href="css/responsivo.css">
+		<script src="js/libs/modernizr.custom.45655.js"></script>
 	</head>
 	<body>
 
@@ -20,7 +21,7 @@
 				<nav class="grid-12 header_menu">
 					<ul>
 						<li><a href="sobre.html">Sobre</a></li>
-						<li><a href="produtos.html"  class="menu_ativo">Produtos</a></li>
+						<li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
 						<li><a href="portfolio.html">Portfólio</a></li>
 						<li><a href="contato.html">Contato</a></li>
 					</ul>
@@ -35,24 +36,20 @@
 			</div>
 		</section>
 
-		<section class="container produto_item">
+		<section class="container produto_item animar-interno">
 			<div class="grid-11">
 				<img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
-					<h2>Passeio</h2>
+				<h2>Passeio</h2>
 			</div>
-			<div class="grid-5 produto_icone">
-				<img src="img/produtos/passeio.png" alt="Bikcraft Passeio">
-			</div>
-			<div class="grid-8 ">
-				<img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio">
-			</div>
+			<div class="grid-5 produto_icone"><img src="img/produtos/passeio.png"></div>
+			<div class="grid-8"><img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio"></div>
 			<div class="grid-8 produto_info">
-				<p>O que temos que ter sempre em mente é que a consolidação das estruturas estimula a padronização das diretrizes de desenvolvimento para o futuro.</p>
+				<p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte.</p>
 				<ul>
-					<li>CONFORTO</li>
-					<li>VELOCIDADE</li>
-					<li>DESIGN</li>
-					<li>VERSATILIDADE</li>
+					<li>Conforto</li>
+					<li>Velocidade</li>
+					<li>Design</li>
+					<li>Versatilidade</li>
 				</ul>
 			</div>
 		</section>
@@ -60,21 +57,17 @@
 		<section class="container produto_item">
 			<div class="grid-11">
 				<img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft Esporte">
-					<h2>Esporte</h2>
+				<h2>Esporte</h2>
 			</div>
-			<div class="grid-5 produto_icone">
-				<img src="img/produtos/esporte.png" alt="Bikcraft Esporte">
-			</div>
-			<div class="grid-8 ">
-				<img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte">
-			</div>
+			<div class="grid-5 produto_icone"><img src="img/produtos/esporte.png"></div>
+			<div class="grid-8"><img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte"></div>
 			<div class="grid-8 produto_info">
-				<p>O que temos que ter sempre em mente é que a consolidação das estruturas estimula a padronização das diretrizes de desenvolvimento para o futuro.</p>
+				<p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte.</p>
 				<ul>
-					<li>CONFORTO</li>
-					<li>VELOCIDADE</li>
-					<li>DESIGN</li>
-					<li>VERSATILIDADE</li>
+					<li>Conforto</li>
+					<li>Velocidade</li>
+					<li>Design</li>
+					<li>Versatilidade</li>
 				</ul>
 			</div>
 		</section>
@@ -82,54 +75,62 @@
 		<section class="container produto_item">
 			<div class="grid-11">
 				<img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retro">
-					<h2>Retro</h2>
+				<h2>Retro</h2>
 			</div>
-			<div class="grid-5 produto_icone">
-				<img src="img/produtos/retro.png" alt="Bikcraft Retro">
-			</div>
-			<div class="grid-8 ">
-				<img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retro">
-			</div>
+			<div class="grid-5 produto_icone"><img src="img/produtos/retro.png"></div>
+			<div class="grid-8"><img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retro"></div>
 			<div class="grid-8 produto_info">
-				<p>O que temos que ter sempre em mente é que a consolidação das estruturas estimula a padronização das diretrizes de desenvolvimento para o futuro.</p>
+				<p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte.</p>
 				<ul>
-					<li>CONFORTO</li>
-					<li>VELOCIDADE</li>
-					<li>DESIGN</li>
-					<li>VERSATILIDADE</li>
+					<li>Conforto</li>
+					<li>Velocidade</li>
+					<li>Design</li>
+					<li>Versatilidade</li>
 				</ul>
 			</div>
 		</section>
-	  <section class="orcamento">
+
+		<section class="orcamento">
 			<div class="container">
 				<h2 class="subtitulo">Orçamento</h2>
-				<form id="orcamento" class="form grid-8">
+			  <form id="form_orcamento" action="enviar.php" method="post" name="form" class="formphp form grid-8">
 					<label for="nome">Nome</label>
-					<input type="text" id="nome" >
+					<input id="nome" name="nome" type="text">
+
 					<label for="email">E-mail</label>
-					<input type="text" id="email" >
+					<input id="email" name="email" type="text">
+
 					<label for="telefone">Telefone</label>
-					<input type="text" id="telefone" >
-					<label for="espec">Especificações</label>
-					<textarea id="espec"></textarea>
-					<button type="submit" class="btn">Enviar</button>
+					<input id="telefone" name="telefone" type="text">
+
+					<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+					<input type="text" class="nao-aparece" name="leaveblank">
+
+					<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+					<input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+					<label for="mensagem">Especificações</label>
+					<textarea name="mensagem" id="mensagem"></textarea>
+
+					<button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
 				</form>
 				<div class="orcamento_dados grid-8">
 					<h3>Dados</h3>
 					<span>+55 21 93223 3232</span>
-					<span class="dados_email">orcamento@bikcraft.com.br</span>
-					<h3>Monte sua Bikcrat</h3>
-					<p>Escolha suas especificações</p>
+					<span>orcamento@bikcraft.com</span>
+					<h3>Monte a sua Bikcraft</h3>
+					<p>Escolha as especificações:</p>
 					<ul>
 						<li>- Cores</li>
-						<li>- Estilo</li>
-						<li>- Medidas</li>
-						<li>- Acessórios</li>
-						<li>- E Outro</li>
-				  </ul>
+    				<li>- Estilo</li>
+    				<li>- Medidas</li>
+   					<li>- Acessórios</li>
+    				<li>- E Outros</li>
+					</ul>
 				</div>
 			</div>
 		</section>
+
 		<section class="quebra">
 			<blockquote class="quote-externo container">
 				<p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
@@ -173,8 +174,13 @@
 				</div>
 			</div>
 		</footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/libs/jquery-3.1.1.min.js"><\/script>')</script>
-		<script src="js/libs/plugins.js"></script>
-		<script src="js/libs/main.js"></script>	</body>
+
+	<!-- JavaScript -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<!-- JavaScript -->
+
+	</body>
 </html>
